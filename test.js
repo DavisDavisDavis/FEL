@@ -1,4 +1,4 @@
-import Splide from "/node_modules/@splidejs/splide/src/js/core/Splide/Splide.ts";
+import Splide from "@splidejs/splide";
 console.log("hello");
 new Splide(".splide").mount();
 
