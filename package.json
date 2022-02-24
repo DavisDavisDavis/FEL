@@ -11,9 +11,5 @@
   },
   "dependencies": {
     "@splidejs/splide": "^3.6.12"
-  },
-  "scripts": {
-    "start": "node app",
-    "dev": "nodemon app"
-    }
+  }
 }
