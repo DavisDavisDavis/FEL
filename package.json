@@ -1,4 +1,14 @@
 {
+  "name": "vite-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.7.2"
+  },
   "dependencies": {
     "@splidejs/splide": "^3.6.12"
   },

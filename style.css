@@ -1,0 +1,31 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+.splide {
+  width: 80%;
+}
+
+.splide__slide {
+  background: pink;
+
+  width: 8rem;
+  height: 20rem;
+  margin: 0.5rem;
+
+  border-radius: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 80%;
+}
