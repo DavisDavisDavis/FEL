@@ -9,6 +9,8 @@
   },
   "devDependencies": {
     "vite": "^2.8.0"
+  },
+  "dependencies": {
+    "darkmode-js": "^1.5.7"
   }
 }
-
