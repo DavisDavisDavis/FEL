@@ -10,6 +10,17 @@
     "vite": "^2.7.2"
   },
   "dependencies": {
+<<<<<<< Updated upstream
     "@splidejs/splide": "^3.6.12"
   }
 }
+=======
+    "@splidejs/splide": "^3.6.12",
+    "darkmode-js": "^1.5.7"
+  },
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  }
+}
+>>>>>>> Stashed changes
