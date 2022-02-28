@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Azo Sans Tn";
+  src: url("fonts/AzoSans-Thin.eot");
+  src: local("Azo Sans Thin"), local("AzoSans-Thin"),
+    url("fonts/AzoSans-Thin.eot") format("embedded-opentype"),
+    url("fonts/AzoSans-Thin.woff2") format("woff2"),
+    url("fonts/AzoSans-Thin.woff") format("woff"),
+    url("fonts/AzoSans-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Azo Sans";
+  src: url("fonts/AzoSans-Regular.eot");
+  src: local("fonts/Azo Sans Regular"), local("AzoSans-Regular"),
+    url("fonts/AzoSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AzoSans-Regular.woff2") format("woff2"),
+    url("fonts/AzoSans-Regular.woff") format("woff"),
+    url("fonts/AzoSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Azo Sans Bk";
+  src: url("fonts/AzoSans-Black.eot");
+  src: local("Azo Sans Black"), local("AzoSans-Black"),
+    url("fonts/AzoSans-Black.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AzoSans-Black.woff2") format("woff2"),
+    url("fonts/AzoSans-Black.woff") format("woff"),
+    url("fonts/AzoSans-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Azo Sans Md";
+  src: url("fonts/AzoSans-Medium.eot");
+  src: local("fonts/Azo Sans Medium"), local("AzoSans-Medium"),
+    url("fonts/AzoSans-Medium.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AzoSans-Medium.woff2") format("woff2"),
+    url("fonts/AzoSans-Medium.woff") format("woff"),
+    url("fonts/AzoSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Azo Sans Lt";
+  src: url("fonts/AzoSans-Light.eot");
+  src: local("fonts/Azo Sans Light"), local("AzoSans-Light"),
+    url("fonts/AzoSans-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AzoSans-Light.woff2") format("woff2"),
+    url("fonts/AzoSans-Light.woff") format("woff"),
+    url("fonts/AzoSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Azo Sans";
+  src: url("fonts/AzoSans-Bold.eot");
+  src: local("fonts/Azo Sans Bold"), local("AzoSans-Bold"),
+    url("fonts/AzoSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AzoSans-Bold.woff2") format("woff2"),
+    url("fonts/AzoSans-Bold.woff") format("woff"),
+    url("fonts/AzoSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
