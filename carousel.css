@@ -1,0 +1,30 @@
+.splide__slide {
+  background: pink;
+
+  padding: 1rem;
+  width: 20rem;
+  height: 40rem;
+}
+
+.Arrow#next {
+  background: blue;
+}
+
+.splide__arrows {
+  display: none;
+}
+
+.splide__pagination__page {
+  display: none;
+}
+
+.is-active {
+  background: rgb(21, 170, 219);
+  transition: all 0.2s;
+}
+
+.splide__slide:not(.is-active) {
+  background-color: rgb(215, 215, 255);
+  transition: all 0.2s;
+  transform: scale(90%);
+}
