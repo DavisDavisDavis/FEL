@@ -1,5 +1,6 @@
 {
   "name": "vite-project",
+  "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -7,9 +8,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^2.7.2"
-  },
-  "dependencies": {
-    "@splidejs/splide": "^3.6.12"
+    "vite": "^2.8.0"
   }
 }
