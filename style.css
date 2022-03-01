@@ -12,7 +12,7 @@ header {
   display: flex;
   border-bottom: 3px solid #f25828;
   align-content: row;
-  justify-content: row;
+  justify-content: space-between;
 }
 
 .logo {
@@ -23,4 +23,5 @@ header {
 .header-item {
   list-style: none;
   display: inline;
+  border: 3px solid #f25828;
 }
