@@ -1,3 +1,7 @@
+:root {
+  --main-orange: #f25828;
+}
+
 body {
   height: 100vh;
   width: 100vw;
@@ -24,10 +28,4 @@ header {
   list-style: none;
   display: inline;
   border: 3px solid #f25828;
-  padding: 20px;
-  border-bottom: none;
-}
-
-:root {
-  --main-orange: #f25828;
 }

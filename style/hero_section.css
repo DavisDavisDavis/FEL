@@ -1,8 +1,28 @@
 h1 {
   font-size: 3rem;
   font-family: "Zilla Slab", serif;
+  color: var(--main-orange);
+}
+
+.hero_section {
+  position: relative;
+}
+
+.hero_section h1 {
+  font-size: 5rem;
+  color: var(--main-orange);
 }
 
 h1 span {
-  color: var(--main-orange);
+  color: black;
+}
+
+.hero_section .standby {
+  width: 24rem;
+  height: 24rem;
+
+  position: absolute;
+  background: pink;
+
+  right: 1rem;
 }
