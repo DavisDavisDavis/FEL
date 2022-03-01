@@ -1,0 +1,43 @@
+.planet_section {
+  position: relative;
+}
+
+.planet_section h2 {
+  background: var(--blackish);
+  color: white;
+  font-size: 2.5rem;
+  margin: 0rem;
+}
+
+.planet_section p {
+  margin: 0rem;
+}
+
+.planet_section img {
+  width: 100%;
+}
+
+.planet_section .test_drive {
+  width: 50%;
+}
+
+.planet_section .saturn {
+  width: 50%;
+
+  position: absolute;
+  right: 1rem;
+}
+
+.planet_section .detail {
+  width: 25%;
+  height: 3rem;
+  border: 3px solid var(--main-orange);
+
+  position: absolute;
+  z-index: -1;
+  top: -2rem;
+}
+
+.planet_section .astro {
+  width: 40%;
+}
