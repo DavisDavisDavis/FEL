@@ -1,31 +1,39 @@
 .planet_section {
   position: relative;
+
+  margin-top: 22rem;
+  height: 100rem;
 }
 
 .planet_section h2 {
   background: var(--blackish);
   color: white;
-  font-size: 2.5rem;
+  font-size: 5vw;
   margin: 0rem;
 }
 
 .planet_section p {
-  margin: 0rem;
+  font-size: 2vw;
+  margin: 1rem 0rem;
+}
+
+.planet_section .test_drive {
+  width: 50%;
+
+  position: absolute;
+  left: 5rem;
 }
 
 .planet_section img {
   width: 100%;
 }
 
-.planet_section .test_drive {
-  width: 50%;
-}
-
 .planet_section .saturn {
-  width: 50%;
+  width: 40%;
 
   position: absolute;
   right: 1rem;
+  top: 30rem;
 }
 
 .planet_section .detail {
@@ -36,8 +44,21 @@
   position: absolute;
   z-index: -1;
   top: -2rem;
+  left: 2rem;
 }
 
 .planet_section .astro {
-  width: 40%;
+  width: 30%;
+
+  position: absolute;
+  left: 2rem;
+  bottom: 1rem;
+}
+
+.planet_section .astro_info {
+  width: 50%;
+
+  position: absolute;
+  right: 4rem;
+  bottom: 5rem;
 }
