@@ -36,5 +36,26 @@ header {
 }
 
 .seal {
-  width: 100vw;
+  width: 90vw;
+}
+.seal-container {
+  display: flex;
+  justify-content: center column;
+  align-items: column;
+  text-align: center;
+  flex-direction: column;
+}
+
+.seal-button {
+  background-color: #212121;
+  width: 20rem;
+  height: 5rem;
+  color: white;
+}
+
+.contact {
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  border: var(--main-orange) solid 2px;
+  background: none;
 }
