@@ -20,14 +20,16 @@ html {
 }
 .seal-container {
   display: flex;
-  justify-content: center column;
+  justify-content: center;
   align-items: column;
   text-align: center;
   flex-direction: column;
+  width: 100vw;
+  height: 40rem;
 }
 
 .seal-button {
-  background-color: #212121;
+  background-color: var(--blackish);
   width: 20rem;
   height: 5rem;
   color: white;
