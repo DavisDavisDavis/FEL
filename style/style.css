@@ -27,3 +27,7 @@ header {
   padding: 20px;
   border-bottom: none;
 }
+
+:root {
+  --main-orange: #f25828;
+}
