@@ -1,7 +1,5 @@
 .splide__slide {
-  background: pink;
-
-  padding: 1rem;
+  padding: 0.5rem;
   width: 20rem;
   height: 40rem;
 }
@@ -22,7 +20,6 @@
 }
 
 .splide__slide:not(.is-active) {
-  background-color: rgb(215, 215, 255);
   transition: all 0.2s;
   transform: scale(90%);
 }
