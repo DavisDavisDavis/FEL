@@ -5,17 +5,15 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-
     <link
       rel="stylesheet"
       href="node_modules/@splidejs/splide/dist/css/splide.min.css"
     />
     <link rel="stylesheet" href="carousel.css" />
-    <script type="module" src="./main.js"></script>
-    <script type="module" src="./script.js"></script>
-    <script type="module" src="./carousel.js"></script>
-    <link rel="stylesheet" href="/fonts.css" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style/fonts.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+
+    <link rel="stylesheet" href="hero_section.css">
     <title>Future. Experience. Lab.</title>
   </head>
   <body>
@@ -32,16 +30,31 @@
       </ul>
     </header>
 
+
+    <section class="hero_section">
+      <h1>
+        <span>F</span>uture. <br>
+        <span>E</span>xperience. <br>
+        <span>L</span>ab.
+      </h1>
+    </section>
+
+
+
+
     <div class="splide">
       <div class="splide__track">
         <ul class="splide__list">
           <li class="splide__slide">Slide 01</li>
+          <img class="splide__slide" src="https://i0.wp.com/sixprizes.com/wp-content/uploads/Luxray-Legends-Awakened-8.jpg?ssl=1" alt="">
           <li class="splide__slide">Slide 02</li>
           <li class="splide__slide">Slide 03</li>
         </ul>
       </div>
     </div>
-    <script type="module" src="/main.js"></script>
-    <script type="module" src="/script.js"></script>
+
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="./carousel.js"></script>
   </body>
 </html>
