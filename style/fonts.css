@@ -69,3 +69,11 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Zilla Slab Regular";
+  src: local("fonts/ZillaSlab-Regular"), local("ZillaSlab-Regular"),
+    url("fonts/ZillaSlab-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
