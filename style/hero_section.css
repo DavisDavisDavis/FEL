@@ -16,6 +16,7 @@ h1 {
 
   padding: 0rem;
   margin: 0rem;
+  margin-top: 2rem;
 }
 
 h1 span {
@@ -34,7 +35,8 @@ h1 span {
 }
 
 .hero_section button {
-  padding: 0.5rem;
+  padding: 0.8rem;
+  font-size: 1.2rem;
 
   border: var(--main-orange) solid 2px;
   background: none;
