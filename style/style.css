@@ -14,7 +14,7 @@ html {
 /* header styling */
 header {
   display: flex;
-  border-bottom: 3px solid #f25828;
+  border-bottom: 3px solid var(--main-orange);
   align-content: row;
   justify-content: space-between;
 }
@@ -27,5 +27,7 @@ header {
 .header-item {
   list-style: none;
   display: inline;
-  border: 3px solid #f25828;
+  border: 3px solid var(--main-orange);
+  padding: 10px;
+  padding-right: 10px;
 }
