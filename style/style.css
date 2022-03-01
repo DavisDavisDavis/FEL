@@ -21,7 +21,7 @@ html {
 .seal-container {
   display: flex;
   justify-content: center;
-  align-items: column;
+  align-items: center;
   text-align: center;
   flex-direction: column;
   width: 100vw;
