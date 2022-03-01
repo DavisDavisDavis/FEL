@@ -6,6 +6,8 @@ h1 {
 
 .hero_section {
   position: relative;
+
+  padding: 2rem 0.5rem;
 }
 
 .hero_section h1 {
@@ -20,12 +22,10 @@ h1 span {
   color: var(--blackish);
 }
 
-.hero_section .standby {
-  width: 24rem;
-  height: 24rem;
+.hero_section img {
+  width: 70%;
 
   position: absolute;
-  background: pink;
 
   right: 1rem;
   top: 1rem;
