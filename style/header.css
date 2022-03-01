@@ -32,3 +32,8 @@ header .header-item {
   justify-content: center;
   align-items: center;
 }
+
+header .circle {
+  width: 3.7rem;
+  height: 3.7rem;
+}
