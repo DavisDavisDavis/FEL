@@ -1,5 +1,7 @@
 :root {
   --main-orange: #f25828;
+  --red-fade: rgba(242, 88, 40, 0.59);
+  --blackish: #212121;
 }
 
 body {
@@ -30,4 +32,5 @@ header {
   border: 3px solid var(--main-orange);
   padding: 10px;
   padding-right: 10px;
+  margin: 0px;
 }

@@ -1,6 +1,6 @@
 h1 {
   font-size: 3rem;
-  font-family: "Zilla Slab", serif;
+  font-family: "Zilla Slab", bold;
   color: var(--main-orange);
 }
 
@@ -14,7 +14,7 @@ h1 {
 }
 
 h1 span {
-  color: black;
+  color: var(--blackish);
 }
 
 .hero_section .standby {
