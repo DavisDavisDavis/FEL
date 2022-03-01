@@ -4,7 +4,7 @@ header {
   align-content: row;
   align-items: center;
   justify-content: space-between;
-  height: 4rem;
+  height: 5rem;
 }
 
 header .logo {
