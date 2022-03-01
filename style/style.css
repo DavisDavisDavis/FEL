@@ -8,31 +8,11 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: "Zilla Slab", normal;
+  margin: 0;
 }
 
 html {
   scroll-behavior: smooth;
-}
-/* header styling */
-header {
-  display: flex;
-  border-bottom: 3px solid var(--main-orange);
-  align-content: row;
-  justify-content: space-between;
-}
-
-.logo {
-  font-weight: 700;
-  font-size: 15px;
-}
-
-.header-item {
-  list-style: none;
-  display: inline;
-  border: 3px solid var(--main-orange);
-  padding: 10px;
-  padding-right: 10px;
-  margin: 0px;
 }
 
 .seal {
