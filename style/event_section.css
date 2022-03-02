@@ -46,3 +46,9 @@
   padding-right: -2rem;
   right: 2rem;
 }
+
+@media screen and (max-width: 771px) {
+  .event-text {
+    font-size: 12px;
+  }
+}
