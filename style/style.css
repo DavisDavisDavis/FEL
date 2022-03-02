@@ -16,6 +16,10 @@ html {
   scroll-behavior: smooth;
 }
 
+p {
+  font-family: "Poppins", sans-serif;
+}
+
 .contact {
   padding: 0.8rem;
   font-size: 1.2rem;
@@ -23,8 +27,10 @@ html {
   background: none;
   font-family: "Zilla Slab", serif;
   transition: 0.3s ease;
+  cursor: pointer;
 }
 
 .contact:hover {
-  background-color: #f25828;
+  background-color: var(--main-orange);
+  cursor: pointer;
 }
