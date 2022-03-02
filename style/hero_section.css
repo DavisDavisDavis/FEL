@@ -1,19 +1,13 @@
-h1 {
-  font-size: 3rem;
-  font-family: "Zilla Slab", bold;
-  color: var(--main-orange);
-}
-
 .hero_section {
   position: relative;
 
-  padding: 2rem 0.5rem;
+  padding: 2rem 2rem;
 }
 
 .hero_section h1 {
-  font-size: 5rem;
+  font-size: 10vw;
   color: var(--main-orange);
-
+  font-weight: bold;
   padding: 0rem;
   margin: 0rem;
   margin-top: 2rem;
@@ -36,7 +30,8 @@ h1 span {
 
 .hero_section button {
   padding: 0.8rem;
-  font-size: 1.2rem;
+  font-size: 2vw;
+  font-weight: bold;
 
   border: var(--main-orange) solid 2px;
   background: none;
