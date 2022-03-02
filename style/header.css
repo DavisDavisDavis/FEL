@@ -1,4 +1,5 @@
 header {
+  width: 100vw;
   display: flex;
   border-bottom: 3px solid var(--main-orange);
   align-content: row;
