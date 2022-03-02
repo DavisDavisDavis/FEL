@@ -62,3 +62,52 @@
   right: 4rem;
   bottom: 6rem;
 }
+
+@media screen and (max-width: 600px) {
+  .planet_section {
+    margin-top: 20vw;
+    height: 100vw;
+
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .planet_section .test_drive {
+    width: 50%;
+
+    position: static;
+    left: 5rem;
+  }
+
+  .planet_section .saturn {
+    width: 40%;
+
+    order: -1;
+    position: static;
+    right: 1rem;
+    top: 20vw;
+  }
+
+  .planet_section .detail {
+    display: none;
+  }
+
+  .planet_section .astro {
+    width: 30%;
+
+    position: static;
+    left: 2rem;
+    bottom: 6rem;
+  }
+
+  .planet_section .astro_info {
+    width: 50%;
+
+    position: static;
+    right: 4rem;
+    bottom: 6rem;
+  }
+}
