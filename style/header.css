@@ -8,12 +8,17 @@ header {
   height: 4rem;
 }
 
+header .logo_container {
+  display: flex;
+  border-right: 3px solid var(--main-orange);
+  height: 100%;
+}
+
 header .logo {
   font-weight: 700;
   font-size: 15px;
   color: black;
-  margin: 0;
-  margin-left: 0.5rem;
+  margin: 0rem 0.5rem;
 }
 
 header .header {
@@ -35,6 +40,11 @@ header .header-item {
 }
 
 header .circle {
-  width: 3.7rem;
-  height: 3.7rem;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  header .header {
+    display: none;
+  }
 }
