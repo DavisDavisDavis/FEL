@@ -22,4 +22,9 @@ html {
   border: var(--main-orange) solid 2px;
   background: none;
   font-family: "Zilla Slab", serif;
+  transition: 0.3s ease;
+}
+
+.contact:hover {
+  background-color: #f25828;
 }
