@@ -16,62 +16,10 @@ html {
   scroll-behavior: smooth;
 }
 
-.seal {
-  width: 90vw;
-}
-.seal-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  width: 100vw;
-  height: 40rem;
-}
-
-.seal-button {
-  background-color: var(--blackish);
-  color: white;
-  font-family: "Zilla Slab", bold;
-  padding: 1rem;
-  font-size: xx-large;
-  margin-bottom: 3rem;
-}
-
 .contact {
   padding: 0.8rem;
   font-size: 1.2rem;
   border: var(--main-orange) solid 2px;
   background: none;
   font-family: "Zilla Slab", serif;
-}
-
-.event-container {
-  display: flex;
-  width: 100vw;
-}
-.button-frame {
-  position: relative;
-  border: 3px solid var(--main-orange);
-  top: -20px;
-  left: -20px;
-  width: 250px;
-  height: 65px;
-}
-
-.hybrid-button {
-  position: absolute;
-  padding: 0.8rem;
-  font-size: xx-large;
-  background: var(--blackish);
-  font-family: "Zilla Slab", bold;
-  color: var(--beige);
-}
-
-.event-text {
-  width: 50%;
-}
-
-.microphone {
-  width: 40%;
 }

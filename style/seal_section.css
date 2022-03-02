@@ -1,0 +1,21 @@
+.seal {
+  width: 90vw;
+}
+.seal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 40rem;
+}
+
+.seal-button {
+  background-color: var(--blackish);
+  color: white;
+  font-family: "Zilla Slab", bold;
+  padding: 1rem;
+  font-size: xx-large;
+  margin-bottom: 3rem;
+}

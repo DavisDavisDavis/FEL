@@ -1,0 +1,29 @@
+.event-container {
+  display: flex;
+  width: 100vw;
+}
+.button-frame {
+  position: relative;
+  border: 3px solid var(--main-orange);
+  top: -20px;
+  left: -20px;
+  width: 250px;
+  height: 65px;
+}
+
+.hybrid-button {
+  position: absolute;
+  padding: 0.8rem;
+  font-size: xx-large;
+  background: var(--blackish);
+  font-family: "Zilla Slab", bold;
+  color: var(--beige);
+}
+
+.event-text {
+  width: 50%;
+}
+
+.microphone {
+  width: 40%;
+}
