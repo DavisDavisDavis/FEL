@@ -24,18 +24,32 @@ footer .footer_container .left img {
 footer .footer_container .right {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 footer .footer_container .right div {
   display: flex;
+  align-items: center;
 }
 
 footer .footer_container .right img {
-  width: 6rem;
+  width: 9rem;
+}
+
+footer .footer_container .right .letter_container {
+  margin-left: 1.3rem;
+}
+
+footer .footer_container .right .phone {
+  width: 13rem;
+  transform: rotate(180deg);
 }
 
 footer .footer_container h2 {
   font-size: 3rem;
   font-weight: bold;
+}
+
+footer .links_container {
+  display: flex;
 }
