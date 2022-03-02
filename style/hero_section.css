@@ -36,3 +36,54 @@ h1 span {
   border: var(--main-orange) solid 2px;
   background: none;
 }
+
+.hero_section .contact_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .hero_section {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+  }
+
+  .hero_section h1 {
+    font-size: 15vw;
+    color: var(--main-orange);
+    font-weight: bold;
+    padding: 0rem;
+    margin: 0rem;
+    margin-top: 2rem;
+  }
+
+  .hero_section img {
+    width: 100%;
+
+    position: static;
+
+    right: 1rem;
+    top: 1rem;
+
+    z-index: -1;
+  }
+
+  .hero_section .contact {
+    display: none;
+  }
+
+  .hero_section .contact_mobile {
+    margin-top: 2rem;
+
+    display: block;
+    padding: 0.8rem;
+    font-size: 4vw;
+    font-weight: bold;
+
+    border: var(--main-orange) solid 2px;
+    background: none;
+  }
+}
