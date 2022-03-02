@@ -92,5 +92,6 @@ footer .copy_right_frame {
 }
 
 .roof {
-  margin: 0rem;
+  display: block;
+  width: 100vw;
 }
