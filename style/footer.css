@@ -10,9 +10,15 @@ footer .footer_container {
 
 footer .footer_container .left {
   display: flex;
+  width: 40%;
   border-right: 3px solid var(--main-orange);
+  max-width: 35rem;
 
-  padding-left: 1rem;
+  justify-content: end;
+}
+
+footer .footer_container .left div {
+  margin: 2rem;
 }
 
 footer .footer_container .left img {
@@ -24,18 +30,68 @@ footer .footer_container .left img {
 footer .footer_container .right {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 footer .footer_container .right div {
   display: flex;
+  align-items: center;
 }
 
 footer .footer_container .right img {
-  width: 6rem;
+  width: 9rem;
+}
+
+footer .footer_container .right .letter_container {
+  margin-left: 1.3rem;
+}
+
+footer .footer_container .right .phone {
+  width: 13rem;
+  transform: rotate(180deg);
 }
 
 footer .footer_container h2 {
   font-size: 3rem;
   font-weight: bold;
+}
+
+footer .links_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+
+  border-bottom: 3px solid var(--main-orange);
+}
+
+footer .links_container .links_icon {
+  width: 20rem;
+}
+
+footer .links_container .links {
+  list-style: none;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+footer .links_container .links li {
+  font-size: 2rem;
+  margin: 0rem 1rem;
+}
+
+footer .copy_right_frame {
+  height: 5rem;
+  border-bottom: 3px solid var(--main-orange);
+  font-size: 1.7rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roof {
+  display: block;
+  width: 100vw;
 }
