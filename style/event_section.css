@@ -8,11 +8,13 @@
 .event-frame {
   width: 80%;
 }
-.hybrid-frame {
+.hybrid-detail {
   width: 200px;
   height: 55px;
   border: 3px solid var(--main-orange);
   cursor: pointer;
+  left: 2rem;
+  position: absolute;
 }
 
 .hybrid-title {
@@ -23,6 +25,7 @@
   font-family: "Zilla Slab", bold;
   color: var(--beige);
   cursor: pointer;
+  position: relative;
 }
 
 .event-text {
