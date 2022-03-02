@@ -2,7 +2,7 @@
   position: relative;
 
   margin-top: 22rem;
-  height: 100rem;
+  height: 100vw;
 }
 
 .planet_section h2 {
@@ -33,7 +33,7 @@
 
   position: absolute;
   right: 1rem;
-  top: 30rem;
+  top: 20vw;
 }
 
 .planet_section .detail {
@@ -52,7 +52,7 @@
 
   position: absolute;
   left: 2rem;
-  bottom: 1rem;
+  bottom: 6rem;
 }
 
 .planet_section .astro_info {
@@ -60,5 +60,5 @@
 
   position: absolute;
   right: 4rem;
-  bottom: 5rem;
+  bottom: 6rem;
 }
