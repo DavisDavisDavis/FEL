@@ -1,31 +1,35 @@
 .event-container {
   display: flex;
   width: 100vw;
-  margin-top: 0rem;
-  padding-left: 5rem;
+  margin-top: 7rem;
+  position: relative;
+  margin-bottom: 7rem;
 }
 
 .event-frame {
   width: 80%;
+  padding-left: 5rem;
 }
 .hybrid-detail {
-  width: 200px;
-  height: 55px;
-  border: 3px solid var(--main-orange);
+  width: 18rem;
+  height: 2rem;
+  border: 2.5px solid var(--main-orange);
   cursor: pointer;
-  left: 2rem;
+  left: 6rem;
   position: absolute;
+  top: -1.5rem;
 }
 
 .hybrid-title {
-  height: 40px;
-  padding: 0.8rem;
-  font-size: xx-large;
+  padding: 0.5rem;
+  font-size: 50px;
   background: var(--blackish);
   font-family: "Zilla Slab", bold;
+  font-weight: 800;
   color: var(--beige);
   cursor: pointer;
   position: relative;
+  width: 17.3rem;
 }
 
 .event-text {
@@ -33,8 +37,12 @@
   left: 10rem;
   font-family: "Poppins", sans-serif;
   font-size: 22px;
+  width: 80%;
 }
 
 .microphone {
   height: 40vw;
+  width: 70%;
+  padding-right: -2rem;
+  right: 2rem;
 }
