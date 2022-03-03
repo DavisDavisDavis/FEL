@@ -34,3 +34,8 @@ p {
   background-color: var(--main-orange);
   cursor: pointer;
 }
+
+button .darkmode-toggle {
+  display: none;
+  background: blue;
+}

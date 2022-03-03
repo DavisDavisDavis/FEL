@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="/style/seal_section.css" />
     <link rel="stylesheet" href="/style/event_section.css" />
     <link rel="stylesheet" href="/style/footer.css" />
+    <link rel="stylesheet" href="/style/hamburger.css">
 
     <title>Future. Experience. Lab.</title>
   </head>
@@ -43,6 +44,24 @@
           Lab.
         </h1>
       </div>
+      <nav>
+        <a class="menu-toggle" aria-label="menu">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="6" y="14" width="28" height="3" fill="white" class="burger-top"/>
+            <rect x="6" y="23" width="28" height="3" fill="white" class="burger-middle"/>
+            <rect x="6" y="31" width="28" height="3" fill="white" class="burger-bottom"/>
+          </svg>
+        </a>
+      </nav>
+    
+      <nav class="menu-hamburger">
+        <div class="menu-item">
+          <a href="/">Start</a>
+          <a href="#">Labs</a>
+          <a href="#">Kontakt</a>
+        </div>
+      </nav>
+
       <ul class="header">
         <li class="header-item">LAB</li>
         <li class="header-item">Kontakt</li>
@@ -318,5 +337,7 @@
     <script type="module" src="./main.js"></script>
     <script type="module" src="./script.js"></script>
     <script type="module" src="./carousel.js"></script>
+    <script type="module" src="./hamburger.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
   </body>
 </html>
