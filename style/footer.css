@@ -50,6 +50,22 @@ footer .footer_container .right .phone {
   width: 13rem;
   transform: rotate(180deg);
 }
+.phone-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.rocket-container {
+  display: flex;
+  position: relative;
+}
+.rocket {
+  align-self: inline-block;
+  top: 0rem;
+  right: -32rem;
+  position: absolute;
+  cursor: pointer;
+}
 
 footer .footer_container h2 {
   font-size: 3rem;
@@ -145,5 +161,16 @@ footer .copy_right_frame {
 
     justify-content: center;
     align-items: center;
+  }
+  .rocket-container {
+    display: flex;
+    position: relative;
+  }
+  .rocket {
+    align-self: inline-block;
+    top: 2rem;
+    right: -9rem;
+    position: absolute;
+    cursor: pointer;
   }
 }
