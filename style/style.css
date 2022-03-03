@@ -12,6 +12,7 @@ body {
   margin: 0;
 
   background: var(--beige);
+  overflow-x: hidden;
 }
 
 html {
