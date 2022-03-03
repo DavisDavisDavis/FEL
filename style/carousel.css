@@ -76,3 +76,16 @@
   left: 3.5rem;
   z-index: 1;
 }
+
+@media screen and (max-width: 780px) {
+  .splide__slide h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 20rem;
+
+    position: absolute;
+    top: 10rem;
+    left: 4.5rem;
+    z-index: 1;
+  }
+}
