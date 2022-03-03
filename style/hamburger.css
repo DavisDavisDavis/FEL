@@ -10,7 +10,7 @@
 .menu-open {
   background: var(--beige);
   width: 100vw;
-  height: 120vh;
+  height: 100vh;
 
   position: fixed;
   left: 0;
@@ -29,12 +29,12 @@
   align-items: center;
 
   height: 20rem;
-  margin-top: 8rem;
+  margin-top: 2rem;
 }
 
 .menu-item a {
-  font-size: 4rem;
-  margin: 2rem 0rem;
+  font-size: 3.5rem;
+  margin: 1rem 0rem;
   text-decoration: none;
   color: var(--blackish);
 }
