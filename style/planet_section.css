@@ -9,6 +9,7 @@
   background: var(--blackish);
   color: white;
   font-size: 5vw;
+  text-align: center;
   margin: 0rem;
 }
 
@@ -65,8 +66,8 @@
 
 @media screen and (max-width: 600px) {
   .planet_section {
-    margin-top: 20vw;
-    height: 100vw;
+    margin-top: 60vw;
+    height: 160vw;
 
     position: static;
     display: flex;
@@ -75,15 +76,24 @@
     align-items: center;
   }
 
+  .planet_section h2 {
+    font-size: 2rem;
+  }
+
+  .planet_section p {
+    font-size: 3.5vw;
+  }
+
   .planet_section .test_drive {
-    width: 50%;
+    width: 60%;
+    margin-top: 2rem;
 
     position: static;
     left: 5rem;
   }
 
   .planet_section .saturn {
-    width: 40%;
+    width: 50%;
 
     order: -1;
     position: static;
@@ -96,15 +106,16 @@
   }
 
   .planet_section .astro {
-    width: 30%;
+    width: 50%;
 
     position: static;
+    margin-top: 2rem;
     left: 2rem;
     bottom: 6rem;
   }
 
   .planet_section .astro_info {
-    width: 50%;
+    width: 60%;
 
     position: static;
     right: 4rem;

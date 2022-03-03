@@ -11,6 +11,7 @@ var splide = new Splide(".splide", {
       perPage: 3,
     },
     750: {
+      arrows: false,
       perPage: 2,
       focus: 0,
       gap: "5rem",
