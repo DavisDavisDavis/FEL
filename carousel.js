@@ -4,6 +4,7 @@ new Splide(".splide").mount();
 
 var splide = new Splide(".splide", {
   type: "loop",
+  focus: "center",
   perPage: 5,
   breakpoints: {
     1250: {
@@ -12,7 +13,6 @@ var splide = new Splide(".splide", {
     750: {
       perPage: 2,
     },
-    focus: "center",
   },
 });
 
