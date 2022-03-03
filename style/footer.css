@@ -173,4 +173,7 @@ footer .copy_right_frame {
     position: absolute;
     cursor: pointer;
   }
+  footer .footer_container h2 {
+    font-size: 2rem;
+  }
 }
