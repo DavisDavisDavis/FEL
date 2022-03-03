@@ -10,6 +10,8 @@ body {
   width: 100vw;
   font-family: "Zilla Slab", normal;
   margin: 0;
+
+  background: var(--beige);
 }
 
 html {

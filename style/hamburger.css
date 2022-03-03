@@ -1,5 +1,13 @@
-header .nav-menu .menu-hamburger .menu-open {
-  background: black;
+.menu-hamburger {
+  display: none;
+  background: green;
+  z-index: 20;
+
+  transition: all 0.5s;
+}
+
+.menu-open {
+  background: var(--beige);
   width: 100vw;
   height: 100vh;
 
@@ -13,14 +21,42 @@ header .nav-menu .menu-hamburger .menu-open {
   opacity: 100%;
 }
 
-header .menu-hamburger {
-  background: black;
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 20rem;
+  margin-top: 8rem;
+}
+
+.menu-item a {
+  font-size: 4rem;
+  margin: 2rem 0rem;
+  text-decoration: none;
+  color: var(--blackish);
 }
 
 header .menu-toggle {
-  z-index: 4;
+  position: fixed;
+  right: 1rem;
+  top: 0.5rem;
+  z-index: 10;
+}
 
-  position: absolute;
-  left: 5rem;
-  top: 5rem;
+.under {
+  margin-top: 5rem;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.under div {
+  margin: 2rem;
+}
+
+.under .half-circle {
+  width: 30%;
 }
