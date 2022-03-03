@@ -9,7 +9,7 @@
 .menu-open {
   background: var(--beige);
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
 
   position: fixed;
   left: 0;
@@ -40,7 +40,7 @@
 
 header .menu-toggle {
   position: fixed;
-  right: 1rem;
+  right: 3rem;
   top: 0.5rem;
   z-index: 10;
 }
@@ -59,4 +59,10 @@ header .menu-toggle {
 
 .under .half-circle {
   width: 30%;
+}
+
+@media screen and (min-width: 600px) {
+  header .menu-toggle {
+    display: none;
+  }
 }

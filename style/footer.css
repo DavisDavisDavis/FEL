@@ -142,6 +142,18 @@ footer .copy_right_frame {
     justify-content: space-between;
   }
 
+  footer .footer_container .right {
+    width: 100%;
+  }
+
+  footer .footer_container .right .letter_container {
+    margin: 0;
+  }
+
+  footer .footer_container .right .letter_container img {
+    width: 8rem;
+  }
+
   footer .footer_container {
     display: flex;
     flex-direction: column;
@@ -158,6 +170,8 @@ footer .copy_right_frame {
   footer .links {
     border-bottom: 3px solid var(--main-orange);
     width: 100%;
+    font-size: 0.2rem;
+    padding-left: 0;
 
     justify-content: center;
     align-items: center;
@@ -169,7 +183,7 @@ footer .copy_right_frame {
   .rocket {
     align-self: inline-block;
     top: 2rem;
-    right: -9rem;
+    right: -30vw;
     position: absolute;
     cursor: pointer;
   }
