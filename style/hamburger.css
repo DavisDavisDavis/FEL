@@ -1,9 +1,10 @@
 .menu-hamburger {
-  display: none;
-  background: green;
-  z-index: 20;
-
+  opacity: 0%;
+  opacity: 0%;
   transition: all 0.5s;
+  position: absolute;
+
+  z-index: -3;
 }
 
 .menu-open {
