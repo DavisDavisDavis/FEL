@@ -39,6 +39,11 @@ header .header-item {
   align-items: center;
 }
 
+header .header-item a {
+  text-decoration: none;
+  color: var(--blackish);
+}
+
 header .circle {
   height: 100%;
 }
