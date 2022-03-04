@@ -8,6 +8,11 @@ footer .footer_container {
   border-bottom: 3px solid var(--main-orange);
 }
 
+footer .footer_container a {
+  color: var(--blackish);
+  text-decoration: none;
+}
+
 footer .footer_container .left {
   display: flex;
   width: 40%;
