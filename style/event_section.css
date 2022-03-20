@@ -5,12 +5,19 @@
   position: relative;
   margin-bottom: 7rem;
   justify-content: flex-end;
+
+  overflow-x: hidden;
 }
 
 .event-frame {
   width: 50%;
   margin-left: 2rem;
 }
+
+.event-frame h2 {
+  text-align: center;
+}
+
 .hybrid-detail {
   width: 18rem;
   height: 2rem;
@@ -65,9 +72,11 @@
   }
   .hybrid-detail {
     top: -1rem;
+    overflow: hidden;
   }
 
   .event-frame {
+    width: 80%;
     padding: 0rem;
     margin: 2rem;
 
